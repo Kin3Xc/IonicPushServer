@@ -1,12 +1,12 @@
 var ionicPushServer = require('ionic-push-server');
 
-var credentials = {  
+var credentials = {
     IonicApplicationID : "572f7af0",
-    IonicApplicationAPIsecret : "cb2853f6f87b0bbbf2840c6ecc76b879861e12ae4f8df203"
+    IonicApplicationAPIsecret : "0e7cfcfa7d9ad4815cc4d8c07c0cfd218e779bccb950e88a"
 };
 
-var notification = {  
-  "tokens":["53c34852-6942-46e7-a2bb-3a389b3fc2ba"],
+var notification = {
+  "tokens":["438b49c8-38c0-41c7-9e1e-7526a064acfd"],
   "notification":{
     "alert":"Probando notificaciones PUSH con Ionic!",
     "ios":{
@@ -20,7 +20,7 @@ var notification = {
         "key2":"value"
       }
     }
-  } 
+  }
 };
 
 ionicPushServer(credentials, notification);
